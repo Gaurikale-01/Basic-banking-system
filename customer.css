@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar {
+    background-color:rgb(17, 16, 16);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    float: right;
+}
+.navbar
+{
+    background-color: rgb(10, 10, 10);
+	padding: 4 !important;
+}
+
+
+.navbar-nav li
+{
+	padding: 0 20px;
+}
+
+    .navbar-nav li a {
+        color: #f5f50b !important;
+        font-weight: 600;
+        float: right;
+        text-align: left;
+    }
+    .navbar-nav li a:hover{
+        border-bottom: 2px solid black;
+    }
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6368!important;
+    
+}
+
+.nav-link{
+    float: right;
+    color: #5f6368!important;
+    
+}
+.table-danger, .table-danger > td, .table-danger > th {
+    background-color: 046582;
+}
+
+.table-info, .table-info > td, .table-info > th {
+    background-color:#afbebe;
+}
+.nav-link:hover{
+    background-color: #75be63;
+    border-radius:9px;
+}
+/* navbar css ends here  */
+#main
+{
+	text-align: center;
+    background-color: #b9be69;
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+.table-danger{
+    font-size: 8rem;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: black !important;
+    color: white !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius:8px;
+}
+
+    .btn-info:hover {
+        background-color: rgb(102, 97, 97)!important;
+    }
